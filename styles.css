@@ -130,7 +130,7 @@ button:hover{
   border:none;
   float: right;
   position: absolute;
-  top:60px;
+  top:40px;
   right:40px;
   z-index: 20;
 }
