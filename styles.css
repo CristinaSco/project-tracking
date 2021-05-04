@@ -166,7 +166,7 @@ button:hover{
 @media screen and (max-width:991px){
 
   .menu{
-    padding:60px 60px;
+    padding:40px 40px;
   }
 
   .menu-toggle{
@@ -178,8 +178,8 @@ button:hover{
   }
 
   .row{
-    margin-top:50px;
-    padding: 0 0 60px 50px;
+    margin-top:20px;
+    padding: 0 0 40px 30px;
   }
 
   .right{
