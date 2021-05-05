@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <title>Project Tracking</title>
+  </head>
+  <body>
+    <div class="colorBg"></div>
+    <header>
+      <div class="menu">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="link">
+          <ul>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <div class="circle"></div>
+            <li><a class="last" href="#">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-toggle">
+        <button class="toggle"><img onclick='changeImage()' id="hamburger" src="images/icon-hamburger.svg" alt="iconhamb"></button>
+        <div class="panelToggle">
+          <div class="menuHamburger">
+            <div class="panelHamburger">
+              <li class="linkHamb"><a class="panel" href="#">PRODUCT</a></li>
+              <li class="linkHamb"><a class="panel" href="#">FEATURES</a></li>
+              <li class="linkHamb"><a class="panel" href="#">PRICING</b></a></li>
+              <hr>
+              <li class="linkHamb"><a class="panel last" href="#">LOGIN</b></a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2 right">
+          <img src="images/illustration-devices.svg" alt="illustration">
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="miniRow">
+            <div class="new">
+              NEW
+            </div>
+            <span>MONOGRAPH DASHBOARD</span>
+          </div>
+          <h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+          <p>Project planning and time tracking <br> for agile teams</p>
+          <div class="miniRow second">
+            <button type="button">SCHEDULE A DEMO</button>
+            <span>TO SEE A PREVIEW</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
